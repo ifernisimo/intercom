@@ -1,0 +1,131 @@
+
+.headerSlider{
+    position: relative;
+    z-index: 1;
+    height: 700px;
+    overflow: hidden;
+    font-family: ProximaNovaRegular;
+}
+
+.sliderSlideImg{
+    min-width: 1920px;
+}
+
+.slideControl{
+    position: absolute;
+    z-index: 999;
+    width: 100%;
+    left: 50%;
+    top:300px;
+    transform: translateX(-50%);
+}
+
+.slideControl img{
+
+}
+
+.swiper_button_next {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    margin-right: 50px;
+    z-index: 999;
+}
+
+.swiper_button_prev{
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
+    margin-left: -50px;
+}
+
+
+.slideContent{
+    position: absolute;
+    top:130px;
+    color: #FFFFFF;
+}
+
+.slideContent p{
+    display: flex;
+    flex-direction: column;
+}
+
+.slideContent p span{
+    font-family: ProximaNovaRegular;
+    font-size: 32px;
+}
+
+.slideContent p span:nth-child(2){
+    font-family: ProximaNovaBold;
+    color: #f9b92f;
+    text-transform: uppercase;
+}
+
+.slideContent p span:nth-child(4){
+    font-family: ProximaNovaSemibold;
+    font-size: 18px;
+    margin-top: 25px;
+}
+
+.slideContent_getOffer{
+    display: flex;
+    margin-top: 100px;
+}
+
+.phone_input{
+    border: none;
+    outline: none;
+    width: 220px;
+    height: 45px;
+    padding: 5px 20px;
+}
+
+.getOffer_btn{
+
+    width: 173px;
+    height: 45px;
+    border: none;
+    outline: none;
+    background: #f9b82f;
+    color: #000000;
+    box-sizing: border-box;
+    margin-left: 15px;
+}
+
+.poolTypes{
+    display: flex;
+    position: absolute;
+    top: 200px;
+    left:50%;
+    transform: translateX(-50%);
+    z-index: 998;
+    color: #FFFFFF;
+    justify-content: flex-end;
+
+}
+
+.poolIcons{
+    display: flex;
+    flex-direction: column;
+    height: 240px;
+    justify-content: space-around;
+    margin-right: 50px;
+}
+
+.poolIcons .icon{
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.poolIcons .icon span{
+    width: 180px;
+    text-align: end;
+    margin-right: 50px;
+}
+
+.yellowText{
+    color: #f9b82f;
+}

@@ -1,0 +1,41 @@
+
+
+header{
+    position: absolute;
+    color: #FFFFFF;
+    padding-top: 15px;
+    width: 100%;
+    z-index: 999;
+}
+
+.logo img{
+    height: 51px;
+}
+
+.phone_number{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-family: ProximaNovaRegular;
+    font-size: 18px;
+
+}
+
+.header_nav{
+    display: flex;
+    width: 100%;
+    font-size: 12px;
+    font-family: ProximaNovaLight;
+
+    align-items: center;
+
+}
+
+.header_nav nav{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.nav_item{
+}
